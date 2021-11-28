@@ -1,3 +1,3 @@
-# cse212-final-project
+# CSE 212 Final Project
 
-by Roberto Villanueva Moreno
+Data Structures tutorial by Roberto Villanueva Moreno
