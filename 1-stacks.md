@@ -31,10 +31,7 @@ stack.append('a')
 stack.append('b')
 stack.append('c')
 
-# Print stack contents
-print(stack)
-
-# This is the output: ['a', 'b', 'c']
+print(stack) # Output: ['a', 'b', 'c']
 ```
 
 Pushing values to a stack takes O(1). For this reason, stacks are a good performing data structure to use.
@@ -50,22 +47,18 @@ To pop an item from the stack, we use the pop() function. Just as with the push 
 ```python
 # Pop an item from the stack
 stack.pop()
-# Print stack contents
-print(stack)
-# Output: ['a', 'b']
+
+print(stack) # Output: ['a', 'b']
 
 # Pop an item and print it to the console
-print(stack.pop())
-# Output: b
+print(stack.pop()) # Output: b
 
 # Pop an item and save it to a variable
 variable = stack.pop()
-print(variable)
-# Output: a
+print(variable) # Output: a
 
-# Print the stack
-print(stack)
-# Output: []
+print(stack) # Output: []
+
 ```
 
 ## Example
@@ -97,11 +90,11 @@ def is_palindrome(str):
             return False
     return True
 
-print(is_palindrome("lol"))
-print(is_palindrome("racecar"))
-print(is_palindrome("race car"))
-print(is_palindrome("stacks are cool"))
-print(is_palindrome("fun nuf"))
+print(is_palindrome("lol"))                 # True
+print(is_palindrome("racecar"))             # True
+print(is_palindrome("race car"))            # False
+print(is_palindrome("stacks are cool"))     # False
+print(is_palindrome("fun nuf"))             # True
 ```
 
 ## Problem to Solve
