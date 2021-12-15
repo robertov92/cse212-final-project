@@ -28,8 +28,6 @@ Depending on the operations you will be performing more often in your applicatio
 | Remove Middle | O(n) | O(n) |
 | Remove End    | O(1) | O(1) |
 
-Source: Comparing Dynamic Array and Linked List (https://byui-cse.github.io/cse212-course/lesson07/07-prepare.html)
-
 In the following tutorial, we will learn to implement a Double Linked List. First, we will create two classes. The first class will initialize a Linked List and the second class will initialize nodes for the first one.
 
 ## The LinkedList and Node classes
@@ -414,6 +412,7 @@ linked_list.remove_tail()
 linked_list.remove(3.5)
 print(linked_list) # linkedlist[4, 3, 2, 1]
 ```
+Source: Linked Lists (https://byui-cse.github.io/cse212-course/lesson07/07-prepare.html)
 
 ## Problem to Solve
 
