@@ -6,7 +6,7 @@ A binary tree is a non linear data structure, compared to arrays, linked lists, 
 
 ![image](./tree.jpg)
 
-A binary tree can contain one or more nodes. The upper node is called Root. A binary tree can only have one Root from which one or two nodes connect. These nodes connected to the Root node are called Child nodes. From there, other child nodes can connect. Notice that a node can connect to only two other nodes. Lastly, the nodes that have no Child nodes are called Leafs.
+A binary tree can contain one or more nodes. The upper node is called Root. A binary tree can only have one Root from which one or two nodes connect. These nodes connected to the Root node are called Child nodes. From there, other child nodes can connect too. Notice that a node can connect to only two other nodes. The nodes that have no Child nodes are called Leafs.
 
 Binary trees are similar to linked lists in that nodes are connected by pointers as shown in the following picture.
 
@@ -16,13 +16,13 @@ So each node contains data and two pointers.
 
 ## Binary Search Tree (BST)
 
-A binary search tree (BST) is a type of binary tree that fulfills a specific ordering property. So on any subtree, the left nodes are less that the root node, which is less than all o the right nodes. This ordering property makes finding a node very fast because we have a good idea of where it would be.
+A binary search tree (BST) is a type of binary tree that fulfills a specific ordering property. If you take any node, the left nodes are less in value that it, and that node will be less in value than all the nodes on the right. This ordering property makes finding a node very fast because we have a good idea of where it would be.
 
 ![image](./tree3.jpg)
 
 ## Usage
 
-We can use BST to organize data for quick search, insertion, and deletion.
+We can use binary search trees (BST) to organize data for quick search, insertion, and removal.
 
 The following table shows the main operations we can perform on BST and their performance.
 
@@ -32,7 +32,7 @@ The following table shows the main operations we can perform on BST and their pe
 | Contains|Determine if a value is in the BST|O(log n) |
 | Travers |Visit all objects from smallest to largest |O(n) |
 
-## Recursion and BST
+## Recursion and Binary Search Trees (BST)
 
 We can define BST as recursive data structures because any node can be consider a subtree of the main tree. The operations on a BST can be, and should be, applied recursively.
 
@@ -243,7 +243,7 @@ print(7 in tree)    # True
 for x in tree:
     print(x)        # 3, 5, 7, 9, 10
 ```
-Source: Trees (https://byui-cse.github.io/cse212-course/lesson09/09-prepare.html#1.4)
+Source: Trees (https://byui-cse.github.io/cse212-course/lesson09/09-prepare.html#1.4 and Prove09)
 
 ## Problem to solve
 
@@ -268,7 +268,7 @@ def get_height(self):
 # This function intended to be called the first time by 
 # get_height.
 def _get_height(self, node):
-    
+
 ```
 
 You can check your code with the solution here: [Solution](bst.py)

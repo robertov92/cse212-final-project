@@ -412,7 +412,7 @@ linked_list.remove_tail()
 linked_list.remove(3.5)
 print(linked_list) # linkedlist[4, 3, 2, 1]
 ```
-Source: Linked Lists (https://byui-cse.github.io/cse212-course/lesson07/07-prepare.html)
+Source: Linked Lists (https://byui-cse.github.io/cse212-course/lesson07/07-prepare.html and Prove07)
 
 ## Problem to Solve
 

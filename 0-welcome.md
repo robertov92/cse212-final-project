@@ -4,7 +4,7 @@ Welcome to the Python Data Structures Tutorial. These are a few data structures 
 
 - [Stacks](1-stacks.md)
 - [Linked Lists](2-linked-lists.md)
-- Trees
+- [Trees](3-trees.md)
 
 Each module will contain descriptions and examples.  At the end of each module, you will find a problem to solve on your own.  Try to solve the problem on your own before looking at the solution.
 
