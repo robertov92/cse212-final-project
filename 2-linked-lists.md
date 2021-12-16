@@ -28,16 +28,16 @@ Depending on the operations you will be performing more often in your applicatio
 | Remove Middle | O(n) | O(n) |
 | Remove End    | O(1) | O(1) |
 
-In the following tutorial, we will learn to implement a Double Linked List. First, we will create two classes. The first class will initialize a Linked List and the second class will initialize nodes for the first one.
+In the following tutorial, we will learn to implement a Double Linked List. First, we will create two classes. The first class will initialize a Linked List and the second class will initialize nodes for the LinkedList class.
 
 ## The LinkedList and Node classes
 
 ```python
-# Linked List class.
+# Linked List class
 class LinkedList:
 
-    # Node class. Here Node is an inner class, but this isn't
-    # necessary
+    # Node class
+    # Here Node is an inner class, but this isn't necessary
     class Node:
 
         # Function to initialize the node object
@@ -67,7 +67,7 @@ Then, we will write functions to perform the most important operations on the Li
 4) Set the head equal to the new node (self.head = new_node)
 
 ```python
-# This function is in LinkedList class
+# This function is in the LinkedList class
 # Function to insert a new node at the 
 # front or head of the linked list
 def insert_head(self, value)
